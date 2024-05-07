@@ -13,4 +13,16 @@ body,
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
+  background-color: #f7f7f7;
 }
+
+/* git init 
+git add --all
+git commit -m "Second Commit"
+git branch -M main
+git remote add origin https://github.com/Dabo-2100/cart.git
+git push -u origin main
+
+git add --all
+git commit -m "Second Commit"
+git push */
