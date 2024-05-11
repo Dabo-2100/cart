@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import CartPage from "./pages/CartPage";
 import LoginPage from "./pages/LoginPage";
 import ToDoPage from "./pages/ToDoPage";
+import VodaPage from "./pages/VodaPage";
 export default function App() {
   return (
     <div className="col-12 App">
@@ -12,6 +13,7 @@ export default function App() {
             <Route index element={<HomePage />} />
             <Route path="cart" element={<CartPage />} />
             <Route path="todo" element={<ToDoPage />} />
+            <Route path="voda" element={<VodaPage />} />
             <Route path="login" element={<LoginPage />} />
             <Route path="*" element={"Page not found 404 Error"} />
           </Route>

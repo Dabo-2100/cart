@@ -44,7 +44,6 @@ export default function ToDoPage() {
         setTasks(oldTasks);
         setTaskToEdit(undefined);
     }
-    ذ
     return (
         <div className="col-12 ">
             <form className="col-12" onSubmit={(e) => { addNewTaskToArr(e) }}>
